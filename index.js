@@ -31,7 +31,7 @@ function checkRotation(input) {
 }
 
 // Starting number
-const cislo = 0;
+const defaultNum = 0;
 
 // Desired position of the rotating prime number
 const n = 100;
@@ -40,7 +40,7 @@ const n = 100;
 let done = false;
 
 // Starting position set to the starting number
-let i = cislo;
+let i = defaultNum;
 
 // Position of the currently checked number;
 let pos = 0;
