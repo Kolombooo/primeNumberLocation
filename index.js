@@ -34,7 +34,8 @@ function checkRotation(input) {
 const defaultNum = 0;
 
 // Desired position of the rotating prime number
-const n = 100;
+const n = 55;
+// WARNING - The limit for n is 55 (don't ask me i have no idea why please tell me why)
 
 // Algorithm active
 let done = false;
